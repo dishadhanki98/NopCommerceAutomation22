@@ -23,7 +23,7 @@ public class BaseTest extends Utils
     @AfterMethod
     public void closeBrowser()
     {
-       // driver.quit();
+       driver.quit();
     }
 
 //    BrowserSelector browserSelector=new BrowserSelector();
